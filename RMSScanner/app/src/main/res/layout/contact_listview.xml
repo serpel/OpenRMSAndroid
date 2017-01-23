@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EEEEEE" >
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="50dp"
+        android:divider="#00000000">
+
+    </ListView>
+
+
+    <include layout="@layout/listview_toolbar"/>
+
+
+
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+
+
+
+        <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_marginTop="50dp"
+        android:background="#ACACAC" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="#fff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:background="#007AFF"
+            android:id="@+id/contact">
+
+            <ImageView
+
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/ic_contact"/>
+            <customfonts.MyTextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact"
+                android:letterSpacing="0.1"
+                android:textSize="12dp"
+                android:layout_marginTop="2dp"
+                android:textAlignment="center"
+                android:textColor="#fff"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="0.1dp"
+            android:layout_height="50dp"
+            android:background="#ACACAC"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:id="@+id/profile">
+
+            <ImageView
+
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ic_profile"/>
+
+            <customfonts.MyTextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Profile"
+                android:letterSpacing="0.1"
+                android:textSize="12dp"
+                android:layout_marginTop="5dp"
+                android:textAlignment="center"
+                android:textColor="#000"/>
+
+        </LinearLayout>
+        <View
+            android:layout_width="0.1dp"
+            android:layout_height="50dp"
+            android:background="#ACACAC"/>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:id="@+id/album">
+
+            <ImageView
+
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ic_photo"/>
+
+            <customfonts.MyTextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Album"
+                android:letterSpacing="0.1"
+                android:textSize="12dp"
+                android:layout_marginTop="5dp"
+                android:textAlignment="center"
+                android:textColor="#000"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="0.1dp"
+            android:layout_height="50dp"
+            android:background="#ACACAC"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ic_mark"/>
+
+            <customfonts.MyTextView
+                android:id="@+id/more"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="More"
+                android:letterSpacing="0.1"
+                android:textSize="12dp"
+                android:layout_marginTop="5dp"
+                android:textAlignment="center"
+                android:textColor="#000"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</FrameLayout>
+
+
+
+
+

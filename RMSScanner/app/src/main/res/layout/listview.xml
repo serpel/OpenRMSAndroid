@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#EEEEEEEE">
+
+ <LinearLayout
+
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical"
+     android:layout_marginRight="15dp"
+     android:layout_marginLeft="15dp"
+     android:layout_marginTop="5dp">
+
+
+     <LinearLayout
+         android:id="@+id/contact"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:background="@drawable/round1"
+         android:padding="10dp">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical">
+
+     <customfonts.MyTextView
+         android:id="@+id/title"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:hint="Name"
+         android:inputType="text"
+         android:textColor="#000"
+         android:textColorHint="#000"
+         android:background="#00000000"
+         android:textSize="16dp"
+         android:layout_marginTop="5dp"
+         android:layout_marginLeft="10dp"
+         android:focusable="false"/>
+
+
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical">
+
+             <customfonts.MyTextView
+                 android:id="@+id/description"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="description1"
+                 android:textSize="16dp"
+                 android:textColor="#000"
+                 android:layout_marginLeft="15dp"
+                 android:layout_marginTop="5dp"
+                 android:focusable="false" />
+
+                 <customfonts.MyTextView
+                     android:id="@+id/description2"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="description2"
+                     android:textSize="16dp"
+                     android:textColor="#000"
+                     android:layout_marginLeft="15dp"
+                     android:layout_marginTop="5dp"
+                     android:focusable="false"/>
+
+                 <customfonts.MyTextView
+                     android:id="@+id/description3"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="description3"
+                     android:textSize="16dp"
+                     android:textColor="#000"
+                     android:layout_marginLeft="15dp"
+                     android:layout_marginTop="5dp"
+                     android:focusable="false" />
+
+</LinearLayout>
+
+     </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+ </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+

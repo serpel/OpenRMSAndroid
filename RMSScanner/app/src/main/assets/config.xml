@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<records>
+   <store>
+      <name>Tienda 1</name>
+      <ip>200.59.27.2</ip>
+      <db>OUTLETPRUEBA</db>
+      <user>serpel</user>
+      <pass>javier01</pass>
+   </store>
+	
+    <store>
+      <name>Tienda 2</name>
+      <ip>200.59.27.2</ip>
+      <db>OUTLETPRUEBA</db>
+      <user>serpel</user>
+      <pass>javier01</pass>
+   </store>
+	
+    <store>
+      <name>Tienda 3</name>
+      <ip>200.59.27.2</ip>
+      <db>OUTLETPRUEBA</db>
+      <user>serpel</user>
+      <pass>javier01</pass>
+   </store>
+	
+</records>

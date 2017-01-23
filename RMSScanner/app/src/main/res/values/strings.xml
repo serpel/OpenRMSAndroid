@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">RMSScanner</string>
+    <string name="config_file_name">config.xml</string>
+    <string name="location">Ubicacion</string>
+    <string name="go">Ir</string>
+    <string name="title_activity_test2">Test2</string>
+    <string name="dialog_message">Esta seguro que desea agregar esta cantidad?</string>
+    <string name="dialog_name">Confirmacion</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancelar</string>
+    <string name="title_activity_search_list">SearchListActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
